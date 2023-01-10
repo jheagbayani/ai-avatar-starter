@@ -49,7 +49,7 @@ const Home = () => {
       setRetry(0);
     }
 
-    const finalInput = input.replace(/raza/gi, 'loveevol');
+    const finalInput = input.replace(/evol/gi, 'loveevol');
 
     // Add the fetch request
     const response = await fetch('/api/generate', {
@@ -121,15 +121,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Silly Picture Generator | buildspace</title>
+        <title>Ann's AI Avatars | buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Silly picture generator</h1>
+            <h1>Ann's AI Avatars</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Turn her into anyone you want! Make sure you refer to her as "loveevol" in the prompt</h2>
+            <h2>Turn her into anyone you want! Make sure you refer to her as "loveevol" or "evol" in the prompt</h2>
           </div>
           <div className="prompt-container">
             <input className="prompt-box" value={input} onChange={onChange}/>
