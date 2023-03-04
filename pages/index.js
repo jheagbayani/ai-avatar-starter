@@ -121,12 +121,12 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Ann's AI Avatars | buildspace</title>
+        <title>Evol's AI Avatars | buildspace & Jay</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Ann's AI Avatars</h1>
+            <h1>Evol's AI Avatars</h1>
           </div>
           <div className="header-subtitle">
             <h2>Turn her into anyone you want! Make sure you refer to her as "loveevol" or "evol" in the prompt</h2>
@@ -142,7 +142,7 @@ const Home = () => {
                 {isGenerating ? (
                   <span className="loader"></span>
                 ) : (
-                  <p>Generate</p>
+                  <p>Let's Go!</p>
                 )}
                 </div>
               </a>
